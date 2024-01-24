@@ -92,7 +92,7 @@ All the necessary variables are in `.env.example`
 #### Remove an event from the calendar
 
 ```http
-  DELETE /google/{id}/delete
+  DELETE /google/schedule_event/{id}/delete
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
