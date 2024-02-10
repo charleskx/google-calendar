@@ -83,7 +83,7 @@ All the necessary variables are in `.env.example`
   POST /google/schedule_event
 ```
 
-| Parâmetro   | Tipo       | Descrição                           |
+| Parameter   | Type       | Description                           |
 | :---------- | :--------- | :---------------------------------- |
 | `summary` | `string` | **Required**. Event title |
 | `description` | `string` | **Required**. A brief description of the event |
@@ -95,7 +95,7 @@ All the necessary variables are in `.env.example`
   DELETE /google/schedule_event/{id}/delete
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `id`      | `string` | **Required**. The ID of the event to be removed |
 
